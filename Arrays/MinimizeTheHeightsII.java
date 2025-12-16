@@ -1,4 +1,4 @@
-Arrays/MinimizeTheHeightsII.java
+
 import java.util.Arrays;
 public class GFG9 {
     public int getMinDiff(int[] arr ,int k){
