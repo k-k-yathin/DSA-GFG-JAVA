@@ -1,4 +1,4 @@
-public class MaxProdSubArray {
+public class GFG11 {
     int maxProduct(int[] arr) {
         int maxEnding = arr[0];
         int minEnding = arr[0];
@@ -18,7 +18,7 @@ public class MaxProdSubArray {
         return maxSoFar;
     }
     public static void main(String[] args) {
-        MaxProdSubArray g = new MaxProdSubArray();
+        GFG11 g = new GFG11();
         System.out.println(g.maxProduct(new int[]{1,2,3,4,-7,7,8,9,10}));
     }
 }
