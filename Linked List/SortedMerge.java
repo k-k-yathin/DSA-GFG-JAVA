@@ -8,7 +8,6 @@ class Node
         next = null;
     }
 }
-
 class Solution {
     Node sortedMerge(Node head1, Node head2) {
           Node tail = head1;
